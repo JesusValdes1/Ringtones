@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ringtones</string>
+    <string name="textview">Ringtones</string>
+    <string name="Rng1">Ringtone 1</string>
+    <string name="Rng2">Ringtone 2</string>
+    <string name="Rng3">Ringtone 3</string>
+    <string name="Rng4">Ringtone 4</string>
+    <string name="Rng5">Ringtone 5</string>
+    <string name="Rng6">Ringtone 6</string>
+    <string name="Rng7">Ringtone 7</string>
+    <string name="Rng8">Ringtone 8</string>
+    <string name="Rng9">Ringtone 9</string>
+    <string name="Rng10">Ringtone 10</string>
+    <string name="Popup1">¡FELICIDADES!</string>
+    <string name="Popup2">¡Has ganado un punto!</string>
+</resources>

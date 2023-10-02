@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo"
+    >
+
+    <ImageButton
+        android:id="@+id/sh10"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/bt10"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/sh9"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/bt9"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/sh8"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/bt8"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/sh7"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/bt7"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/sh6"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/sh5"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/sh4"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/sh3"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/dw3"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/bt3"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/dw4"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/bt4"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="268dp"
+        android:background="@color/white"
+        android:onClick="sonido7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="308dp"
+        android:background="@color/white"
+        android:onClick="sonido8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="348dp"
+        android:background="@color/white"
+        android:onClick="sonido9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="388dp"
+        android:background="@color/white"
+        android:onClick="sonido10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/white"
+        android:onClick="sonido4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="190dp"
+        android:background="@color/white"
+        android:onClick="sonido5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="228dp"
+        android:background="@color/white"
+        android:onClick="sonido6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="110dp"
+        android:background="@color/white"
+        android:onClick="sonido3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="278dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="54dp"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="395dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.144">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng1"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng2"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng3"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng4"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng5"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng6"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng7"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng8"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/Rng9"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/Rng10"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/rng1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:onClick="sonido1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/rng2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/white"
+        android:onClick="sonido2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_media_play"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/dw6"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/bt6"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/dw7"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/dw8"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="306dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/dw9"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/dw10"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/dw5"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/bt5"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/dw1"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/dw2"
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="193dp"
+        android:backgroundTint="@color/white"
+        android:outlineProvider="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_download"
+        app:tint="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="321dp"
+        android:layout_height="144dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/kakashi" />
+
+    <ImageButton
+        android:id="@+id/sh1"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/sh2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="@color/white"
+        android:onClick="share2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        app:tint="#3D5AFE" />
+
+    <ImageButton
+        android:id="@+id/bt1"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+    <ImageButton
+        android:id="@+id/bt2"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="115dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@android:drawable/stat_sys_data_bluetooth"
+        app:tint="@color/black" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
